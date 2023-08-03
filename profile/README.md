@@ -1,6 +1,6 @@
 <center>
   <a>
-    <img src="/lend_lab_img5.png" alt="logo" width="120" height="100" class="logo"/>
+    <img src="lend_lab_img5.png" alt="logo" width="120" height="100" class="logo"/>
   </a>
 </center>
 
