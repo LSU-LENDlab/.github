@@ -1,8 +1,4 @@
-<center>
-  <a>
-    <img src="lend_lab_img5.png" alt="logo" width="120" height="100" class="logo"/>
-  </a>
-</center>
+!["/lend_lab_img5.png"](https://github.com/LSU-LENDlab/.github/blob/main/profile/lend_lab_img5.png)
 
 # LEND Lab at LSU
 
