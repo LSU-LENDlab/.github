@@ -1,3 +1,9 @@
+<center>
+  <a>
+    <img src="/lend_lab_img5.png" alt="logo" width="120" height="100" class="logo"/>
+  </a>
+</center>
+
 # LEND Lab at LSU
 
 This is the official GitHub of the [**L**anguage, **E**nvironment and **N**euro**D**evelopment (LEND) Lab](https://juschnei.wixsite.com/lendlab) directed by [Dr. Julie M. Schneider](https://www.lsu.edu/hss/comd/faculty/schneider.php)
