@@ -8,6 +8,9 @@ If you wish to make contributions to a repository, please read the following ins
 ## Getting started with Git in MacOS Terminal
 1. Install Homebrew ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 2. Install git via brew ```brew install git```
+3. Install GitHub CLI via brew ```brew install gh```
+
+> If you wish to work within the terminal, see [git and GitHub in Terminal](#terminal)
 
 ## Forking and Cloning
 1. To work on a repository via your own profile, you must "fork" it. Click the **Fork** button in the right corner to add the repository to your own profile.
@@ -79,4 +82,34 @@ git add -A
 Not sure which branch_name is correct? Find out which branch you are on:
 ```
 git -branch
+```
+
+## Git and GitHub in the Terminal  <a name="terminal"></a>
+
+To create, initialize and push a repository and its accompanying files to GitHub use the following commands.
+
+```bash
+$ cd ~/.../my_folder # go to a folder
+$ git init # initializes the repo to git
+$ gh repo create <name> --public --add-readme # creates public repo with accompanying README.md
+
+## Add your files manually or... ## 
+
+$ cat > my_file.txt
+Here is some text.
+^D # control+D
+
+# or
+
+$ vim my_file.txt
+i # press i (insert mode)
+Here is some text
+esc # press escape
+:wq # writes/saves and exits vim
+
+
+$ git remote add origin https://github.com/<username>/<name>.git
+$ git add -A # adds all files or: git add -my_file.sh
+$ git commit -m "commit message"
+$ git push origin main
 ```
